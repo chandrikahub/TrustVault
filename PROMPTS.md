@@ -8,21 +8,21 @@ This file records how AI assistance was used during development. The entries des
 - **AI output:** Guidance for installing Flask, creating a project folder, and organizing application files.
 - **What was wrong or unclear:** Installing Flask alone did not create a project folder or populate the VS Code Explorer.
 - **What I did:** I created/opened the TrustVault folder and organized the application files.
-- **Related commit:** Add the actual commit URL after committing this log.
+- **Related commit:** https://github.com/chandrikahub/TrustVault/commits/a90d1a439846908b25815d9215ed143390bbef23/
 
 ## Entry 2 — 2026-10-23 — Document authorization
 
 - **Prompt:** Help me implement document downloads so only an administrator, the document owner, or a user with explicit sharing permission can download a document.
 - **AI output:** Guidance for checking the current user's role, ownership, and permission before serving a file.
 - **What I verified or changed:** Record the exact code changes you made and whether you tested an unauthorized download. Do not claim a test passed unless you ran it.
-- **Related commit:** Add the actual commit URL after committing this log.
+- **Related commit:** https://github.com/chandrikahub/TrustVault/commits/a90d1a439846908b25815d9215ed143390bbef23/
 
 ## Entry 3 — 2026-10-23 — Audit trail
 
 - **Prompt:** Help me record document access and denied-access events in an audit log.
 - **AI output:** Guidance for storing audit events and displaying them in an administrator-only audit page.
 - **What I verified or changed:** I manually checked the audit history page. I still need to verify which events are recorded and whether unauthorized users are blocked from the page.
-- **Related commit:** Add the actual commit URL after committing this log.
+- **Related commit:** https://github.com/chandrikahub/TrustVault/commits/a90d1a439846908b25815d9215ed143390bbef23/
 
 ## Entry 4 — 2026-10-23 — Deployment
 
@@ -30,12 +30,12 @@ This file records how AI assistance was used during development. The entries des
 - **AI output:** Guidance for configuring the start command, dependencies, and secret key.
 - **What was wrong or needed correction:** I needed to distinguish local configuration from Render environment settings and avoid exposing the secret key.
 - **What I did:** I configured the Render service and replaced the exposed secret key with a newly generated one.
-- **Related commit:** Add the actual commit URL after committing this log.
+- **Related commit:** https://github.com/chandrikahub/TrustVault/commits/a90d1a439846908b25815d9215ed143390bbef23/
 
 ## Entry 5 — 2026-10-23 — Documentation and limitations
 
 - **Prompt:** Help me document how to run TrustVault locally and identify its security risks and unfinished tests.
 - **AI output:** Drafts for the README and threat model.
 - **What I reviewed or changed:** I saved the documentation and recorded authorization tests and deployment persistence as limitations requiring attention.
-- **Related commit:** Add the actual commit URL after committing this log.
+- **Related commit:** https://github.com/chandrikahub/TrustVault/commits/e9420cdd74695e1a1056a75f68e9c598ba5df4b2/
 
